@@ -1,0 +1,62 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #valeur {
+    width: 200px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #btn {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #006d87;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+tr:hover {
+    background-color: #5ca9da;
+  }
+.dark{
+    background-color: black;
+    color: white;
+}
+#darkmo{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 50px;
+}
